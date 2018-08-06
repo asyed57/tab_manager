@@ -110,8 +110,6 @@ function checkAllClick() {
 
 document.addEventListener('DOMContentLoaded', function () {
     searchField = gei("searchField");
-    searchButton = gei("searchButton");
-    searchBookmarksBtn = gei("searchBookmarksBtn");
     historySearchDiv = gei("historySearchDiv");
     historyResultDiv = gei("historyResultDiv");
     resultTable = gei("resultTable");
