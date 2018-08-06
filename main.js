@@ -116,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
     checkAllButton = gei("checkAll");
     checkAllDiv = gei("checkAllDiv");
     deleteSelected = gei("deleteSelected");
-    searchButton.addEventListener("click" , searchTab);
     deleteSelected.addEventListener("click" , deleteSelectedClick);
     checkAllButton.addEventListener("click" , checkAllClick);
     searchField.onkeyup = function(){
